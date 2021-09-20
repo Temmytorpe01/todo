@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    box-sizing: border-box;
+}
+.firstcolumn{
+    width: 15%;
+    height: 620px;
+    color: white;
+    background: linear-gradient(rgb(15, 15, 15),grey);
+    overflow: hidden;
+    line-height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row2{
+    display: inline;
+}
+.item{
+    padding-left: 10px;
+}
+.number{
+    float: right;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: gray;
+    opacity: 0.7;
+    height: 40px;
+    font-size: 30px;
+    align-items: center; 
+}
+.secondcolumn{
+   width: 85%; 
+   height: 600px;
+   background-color:gainsboro;
+}
+.bodyrow1{
+    display: block;
+    background-color: lightblue;
+    height: 40px;
+}
+.gmail{
+    float: right;
+}
+.bodyrow2{
+    background-color: white;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+button{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+    border-bottom: 1px dotted gray;
+    padding-bottom: 5px;
+    color: gray;
+    font-style: oblique;
+}
+.bodyrow3{
+    margin: 10px;
+    background-color: white;
+    height: 84%;
+}
+.heading{
+    background-color: rgb(48, 48, 238);
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+}
+.firstline,.secondline,.thirdline{
+    border-bottom: 0.5px solid rgb(163, 161, 161, 0.1);
+    padding: 15px;
+    border-radius: 3px;
+}
+.firstline,.thirdline{
+    background-color: rgb(206, 204, 204, 0.2);
+}
+.right{
+    position: relative;
+    float: right;
+    padding-left: 20px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+  }
+.task{
+    padding-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
